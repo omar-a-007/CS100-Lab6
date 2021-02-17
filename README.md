@@ -122,3 +122,4 @@ Hints:
  * Learn how to use the [actions/checkout](https://github.com/actions/checkout) process to mimic your own build process. 
 
  Once you have finished the lab you can add a badge to the README.md. From the actions page, go to the workflow you just created. In the upper right you should see a button that says `Create status badge`. You can add that to the top of your README.md and you'll get a badge that shows the current status of your workflow *on your main branch*. This isn't required for the lab but can be helpful in your other projects.
+
