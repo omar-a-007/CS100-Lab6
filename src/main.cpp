@@ -1,4 +1,3 @@
-#include <iostream>
 #include "../header/rectangle.hpp"
 #include "../tests/test/cpp"
 #include "gtest/gtest.h"
