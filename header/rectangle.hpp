@@ -7,13 +7,13 @@ class Rectangle {
         int height;
     public:
         Rectangle(){
-	width = 0;
-	height = 0;
+	width = 2;
+	height = 2;
 	}
 
         Rectangle(int w,int h){
-	width = w;
-	height = h;
+	width = h;
+	height = w;
 	}
 
         void set_width(int w);
