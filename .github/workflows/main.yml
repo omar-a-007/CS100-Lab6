@@ -28,6 +28,11 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run unit tests
         run: |
+             git submodule update --init --recursive
+             echo --- Updated GoogleTest submodule
              cmake .
+             echo --- Completed cmake .
              make
-             test
+             echo --- Completed make
+             ./test
+             echo --- Ran test executable  
