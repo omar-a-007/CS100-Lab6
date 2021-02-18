@@ -26,11 +26,11 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: Running CMake3
-      - run: cmake3 .
+        run: cmake3 .
       
       - name: Running make
-      - run: make
+        run: make
       
       # Runs a single command using the runners shell
       - name: Run unit tests
-      - run: test
+        run: test
