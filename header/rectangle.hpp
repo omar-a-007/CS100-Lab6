@@ -6,11 +6,20 @@ class Rectangle {
         int width;
         int height;
     public:
-        Rectangle();
-        Rectangle(int w,int h);
+        Rectangle(){
+	width = 0;
+	height = 0;
+	}
+
+        Rectangle(int w,int h){
+	width = w;
+	height = h;
+	}
 
         void set_width(int w);
         void set_height(int h);
+	int get_width();
+	int get_height();
         int area();
         int perimeter();
 };
